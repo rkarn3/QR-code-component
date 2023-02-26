@@ -15,8 +15,8 @@ body {
 .container {
   background-color: white;
   border-radius: 20px;
-  width:20%;
-  padding:10px
+  max-width: 320px;
+   padding: 16px
 }
 
 .qr-img {
@@ -28,11 +28,17 @@ body {
 
 .container-texts {
   text-align: center;
+  font-size: 15px;
+  margin: 10px;
 }
 
 p {
   width: 75%;
   margin: auto;
+  font-size: 15px;
+}
+h1 {
+  font-size: 15px;
 }
 
 .header {
